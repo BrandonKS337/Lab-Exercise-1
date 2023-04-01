@@ -20,11 +20,13 @@
   
   /* make description take up left side of screen with dice to the right of it */
   nav {
+    color: white;
     text-align:center;
     width: 100%;
     height: 100%;
     background: grey;
     padding: 20px;
+    margin: 10;
   }
 
   article {

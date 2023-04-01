@@ -1,11 +1,15 @@
-//Break the function using checks....somehow good luck
+// // Break the function using checks....somehow good luck
 // function breakEverything(){
-// console.log(typeof + numberMinMax(1,6))
-//   if(typeof + numberMinMax("random stuff")!="number"){
-//     console.log("is not number")
+//     console.log(typeof + numberMinMax(1,6))
+//     if(typeof numberMinMax("random stuff")!="number"){
+//         console.log("is not number")
+//     }
+//     if((numberMinMax(32,7)>6) && (numberMinMax(0,0)<1)){
+//         console.log("number>6")
+//     }
 // }
     
-
+// breakEverything()
 
 
 function diceRoll(num,num2,Name1){
