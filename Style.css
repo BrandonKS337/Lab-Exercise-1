@@ -20,13 +20,12 @@
   
   /* make description take up left side of screen with dice to the right of it */
   nav {
+    background-color: grey;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
     color: white;
-    text-align:center;
-    width: 100%;
-    height: 100%;
-    background: grey;
-    padding: 20px;
-    margin: 10;
+    
   }
 
   article {
@@ -47,4 +46,7 @@
     text-align: center;
     color: white;
   }
- 
+ .button {
+  height: 30px;
+  border: "14px solid black";
+ }
