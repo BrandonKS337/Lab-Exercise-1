@@ -19,9 +19,9 @@
     <p>"Hello weary random person. Long time traveling and forgot your dice bag at home? HAH! No worries friend.</p>
 </nav>
 
-<Article>
-<section class="dice">
-    <div class="leftside">
+<Article> <!--This is the section for the dice images-->
+<section class="dice"> <!--This is setting css to flex for dice images-->
+    <div class="leftside"> <!--3 dice on left-->
       <img src="Images/d6.png" alt="Image d6" width="200px">
       <button class="button" id="d6" onclick="diceRoll(1,6,'roll6')">Roll a D6</button>  
     </br><p id="roll6"></p>
@@ -35,7 +35,8 @@
       <p id="rolld8"></p>
     </div>
 
-    <div class="rightside">
+    <div class="rightside"> <!--3 dice on right-->
+      <!--I want the button centered horizontally with the img and anchored to right sides-->
       <img src="Images/d4.png" alt="Image D4" width="200px">
       <button class="button"  id="d4" onclick="diceRoll(1,4,'rolld4')">Roll a D4</button>
       <p id="rolld4"></p>
