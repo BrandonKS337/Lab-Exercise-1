@@ -29,7 +29,10 @@
   }
 
   article {
-    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: white;
     width: 70%;
     padding: 20px;
@@ -49,4 +52,18 @@
  .button {
   height: 30px;
   border: "14px solid black";
+ }
+
+ .dice{
+    display: flex;
+
+ }
+
+ .leftside{
+
+  
+ }
+
+ .rightside{
+    margin: 40px;
  }
