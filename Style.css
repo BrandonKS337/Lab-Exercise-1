@@ -1,0 +1,48 @@
+
+  style {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: sanscrit;
+
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #3f3939;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  
+  }
+  
+  /* make description take up left side of screen with dice to the right of it */
+  nav {
+    text-align:center;
+    width: 100%;
+    height: 100%;
+    background: grey;
+    padding: 20px;
+  }
+
+  article {
+    float: right;
+    background: white;
+    width: 70%;
+    padding: 20px;
+  }
+
+
+
+  /* Style the footer */
+  footer {
+    float: right;
+    background-color: #777;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+ 
